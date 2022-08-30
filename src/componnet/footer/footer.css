@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    
+}
+.footer-box{
+    margin-bottom: 20px;
+}
+.footer-box ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-box ul li{
+    color: #22728a;
+    cursor: pointer;
+}
+.fText{
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+}

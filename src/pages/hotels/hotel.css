@@ -1,0 +1,156 @@
+.hotel-single{
+    margin-top: 10px;
+}
+.title-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.title-btn button{
+    height: 40px;
+}
+.hotel-title-one{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.hotel-title-one h2{
+    font-weight: bold;
+    
+}
+.hotel-title-one .icon-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    color: #444;
+}
+.hotel-title-one p{
+    color: #408dc7;
+    margin-bottom: 0;
+}
+.hotel-title-one>span{
+color: rgb(34, 152, 34);
+font-size: 18px;
+}
+.hotel-single .img-box{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.hotel-single .img-box img{
+    width: 100%;
+}
+.hotel-title-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+@media screen and (max-width : 550px) {
+    .hotel-title-two {
+        flex-direction: column  !important;
+    }
+}
+.hotel-title-two .dec-title{
+    flex: 3;
+}
+.hotel-title-two .dec-title h2{
+    font-weight: bold;
+    color: #000;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.hotel-title-two .dec-title p{
+    font-size:15px ;
+    color: #444;
+
+}
+.hotel-title-two .box-dec{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    background-color: #b6bec8;
+    padding: 15px;
+    gap: 20px;
+}
+.hotel-title-two .box-dec h5{
+font-size: 18px;
+font-weight: bold;
+}
+.hotel-title-two .box-dec p{
+    margin: 0;
+    font-size: 15px;
+}
+.hotel-title-two .box-dec span{
+    font-size: 20px;
+}
+
+.hotel-title-two .box-dec button{
+    width: 100%;
+}
+
+.slider{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.58);
+    z-index: 999;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider .box-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider .box-img img{
+    width: 80%;
+    height: 80%;
+}
+.slider .left{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    z-index: 100;
+    font-size: 50px;
+    color: lightgray;
+    cursor: pointer;
+}
+ .slider .right{
+    position: absolute;
+    right: 10px;
+    top: 50%;;
+    z-index: 100;
+    font-size: 50px;
+    color: lightgray;
+    cursor: pointer;
+}
+@media screen and (max-width : 550px) {
+    .slider .right,
+    .slider .left{
+        font-size: 32px;
+    }
+}
+
+.slider .close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+    color: lightgray;
+    cursor: pointer;
+}

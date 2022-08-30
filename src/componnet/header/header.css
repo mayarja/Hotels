@@ -1,0 +1,116 @@
+.header{
+    background-color: #003173;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.box-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.icon-title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-title{
+    color: #fff;
+}
+
+.box-icon .active{
+    border: 1px solid #eee;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
+.dec-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    margin: 40px 0;
+    gap: 20px;
+}
+
+.dec-title h1{
+    color: #fff;
+}
+.dec-title button{
+    background-color: #1d63c0;
+    color: #eee;
+}
+.bar-rel{
+    position: absolute;
+    width: 85%;
+    bottom: -32px;
+}
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    border: 3px solid #febb02;
+    border-radius: 8px;
+    padding: 5px 10px;
+    flex-wrap: wrap;
+   width: 100%;
+}
+.header-bar .header-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 10px; 
+    cursor: pointer;
+    color: lightslategray;
+    position: relative;
+}
+.header-bar .header-search input{
+    background-color: #eee;
+    border: none;
+}
+.header-bar .header-search input:focus{
+    outline: none;
+}
+.header-bar .header-search span{
+    color: lightslategray;
+}
+
+.header-search .date{
+    position: absolute;
+    top: 39px;
+    z-index: 10;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.option-box{
+    position: absolute;
+    top: 39px;
+    padding: 5px;
+    width: 200px;
+    background-color: #ffffff;
+    z-index: 10;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.option-box .item-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.option-box .item-option .option-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.option-box .option-btn button:disabled{
+    cursor: not-allowed;
+}

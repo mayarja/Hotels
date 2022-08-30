@@ -1,0 +1,31 @@
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.box img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.box p{
+    color: #777;
+}
+.box h5{
+    font-weight: 500;
+}
+.box .btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box .btn-box button{
+    background-color: rgb(51, 51, 137);
+    font-weight: bold;
+    color: #fff;
+}
+.box .btn-box span{
+    font-size: 14px;
+}

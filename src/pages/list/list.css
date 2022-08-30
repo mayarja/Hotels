@@ -1,0 +1,70 @@
+.list{
+    padding-top: 20px;
+
+}
+.search-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px;
+    background-color: #febb02;
+    border-radius: 10px;
+}
+.title-date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+.search-box h3{
+    color: #555;
+}
+.search-box label{
+    font-size: 13px;
+}
+.search-box .ss{
+    background-color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.title-date .data-two{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.rdrMonth {
+    width: 100% !important;
+}
+
+.optin-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    width: 100%;
+}
+
+.optin-box .optin-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.optin-box .optin-title input{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    color: #555;
+}
+.optin-box .optin-title input:focus{
+    outline: none;
+}

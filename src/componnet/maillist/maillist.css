@@ -1,0 +1,27 @@
+.maillist{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #003173;
+    color : #fff
+}
+.maillist p{
+    color: #999;
+}
+
+
+.maillist .inp-b input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.maillist .inp-b input:focus{
+    outline: none;
+}
+.maillist .inp-b button{
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 2px;
+}

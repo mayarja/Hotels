@@ -1,0 +1,117 @@
+.searchitem{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 10px;
+    gap: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+@media screen and (max-width : 990px) {
+    .searchitem {
+        flex-direction: column;
+    }
+    .searchitem .img-box{
+        width: 100% !important;
+    }
+    
+.searchitem .title-right{
+
+    display: flex;
+    align-items: flex-end !important;
+    flex-direction: column;
+    justify-content: center;
+    width: 100% !important;
+}
+}
+.searchitem .img-box{
+    width: 250px;
+}
+.searchitem .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.searchitem .paln-b{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.searchitem .title-center{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.searchitem .title-center span{
+    color: #444;
+}
+.searchitem .title-center h4{
+    color: #184d7f;
+    font-weight: bold;
+}
+.searchitem .title-center .span-color{
+    background-color: #067025;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 3px ;
+}
+.searchitem .title-center p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.searchitem .title-center .span-color-2{
+     
+    color :#5bda94;
+}
+.searchitem .title-center .span-color-3{
+
+    color:#157834
+}
+
+.searchitem .title-right{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.searchitem .title-right .title-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.searchitem .title-right .title-one .one{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.searchitem .title-right .title-one .two{
+    background-color: #184d7f;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.searchitem .title-right .title-two{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+}
+.searchitem .title-right .title-two p{
+    font-size:26px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.searchitem .title-right .title-two span{
+    color: #555;
+}
+.searchitem .title-right .title-two button{
+    width: 100%;
+    font-weight: 600;
+}
