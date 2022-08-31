@@ -44,7 +44,7 @@ function Header({ list }) {
 
   let navifunc = () => {
     if (destination.length > 0) {
-      navigate("./hotels", { state: { destination, date, option } });
+      navigate("./list", { state: { destination, date, option } });
     }
   };
 
