@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Searchitem.css";
 
 function Searchitem() {
@@ -30,7 +31,11 @@ function Searchitem() {
           <div className="title-two">
             <p>$123</p>
             <span>includes taxes and free</span>
-            <button className="btn btn-primary">See avilability</button>
+            <button className="btn btn-primary">
+              <Link className="link" to="/Hotels/hotels/2">
+                See avilability
+              </Link>
+            </button>
           </div>
         </div>
       </div>

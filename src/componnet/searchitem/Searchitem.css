@@ -7,7 +7,7 @@
     margin-bottom: 20px;
     border-radius: 5px;
 }
-@media screen and (max-width : 990px) {
+@media screen and (max-width : 1400px) {
     .searchitem {
         flex-direction: column;
     }

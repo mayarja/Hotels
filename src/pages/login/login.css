@@ -1,0 +1,69 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600') center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+.login .box-login{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px ;
+    border-radius: 8px;
+}
+@media screen and (max-width : 550px) {
+    .login .box-login{
+        max-width: 370px;
+    }
+}
+
+.login .box-login .inp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.login .box-login .inp a{
+    margin-top: 5px;
+    color: teal;
+}
+
+.login .box-login .inp input{
+    width: 100%;
+    margin: 20px 8px 0 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.login .box-login .inp input:focus{
+    outline: none;
+}
+
+.login .box-login p{
+    font-size: 16px;
+    margin: 20px 0;
+}
+ .btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.login .box-login .btn{
+    padding: 10px 20px;
+    width: 30%;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.log{
+    background-color: tomato !important;
+}
+.reg{
+    background-color: teal !important;
+}

@@ -68,3 +68,8 @@
 .optin-box .optin-title input:focus{
     outline: none;
 }
+
+.link{
+    text-decoration: none;
+    color: #fff !important;
+}
