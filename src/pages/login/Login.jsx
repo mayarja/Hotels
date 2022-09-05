@@ -19,7 +19,7 @@ function Login() {
           <Link className="btn reg" to="/Hotels/register">
             CREATE
           </Link>
-          <Link className="btn log" to="/Hotels/login">
+          <Link className="btn log" to="/Hotels">
             LOG IN
           </Link>
         </div>

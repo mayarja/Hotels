@@ -57,3 +57,11 @@
     text-decoration: none;
 }
 
+.link3{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link3:hover{
+    color: #fff;
+}

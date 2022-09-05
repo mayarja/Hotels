@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 function Navbar() {
@@ -9,8 +10,16 @@ function Navbar() {
             <span>Merobooking</span>
           </div>
           <div className="login-box">
-            <button className="btn btn-primary btn-reg">Register</button>
-            <button className="btn btn-primary btn-log">Login</button>
+            <button className="btn btn-primary btn-reg">
+              <Link to="/Hotels/register" className="link2">
+                Register
+              </Link>
+            </button>
+            <button className="btn btn-primary btn-log">
+              <Link to="/Hotels/login" className="link2">
+                Login
+              </Link>
+            </button>
           </div>
         </div>
       </div>
